@@ -474,7 +474,7 @@ y("", "")
 
 
 function zeno() {
-zurl = "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/"+idzeno+"/?rand="+ Math.random();
+zurl = "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/pcsxei1d3h0tv"+idzeno+"/?rand="+ Math.random();
 if (sa === "fallback") {url = "fallback.php?url="+zurl} else {url = zurl}
 
 d.ajax({
@@ -2969,4 +2969,5 @@ return this.each(function() {
 G(this, "mousedown", "mousedown")
 })
 }
+
 })(jQuery);
